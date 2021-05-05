@@ -15,4 +15,9 @@ module.exports = {
   plugins: [],
   // add your custom rules here
   rules: {},
+  ignorePatterns: [
+    'dist/*',
+    '.github/*',
+    'node_modules/*'
+  ],
 }
