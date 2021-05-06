@@ -1,0 +1,6 @@
+.node_modules/*
+.dist/*
+.public/*
+.nuxt/*
+.assets/*
+.packcage-lock.json
