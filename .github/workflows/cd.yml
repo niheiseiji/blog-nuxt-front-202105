@@ -26,11 +26,11 @@ jobs:
       - name: npm run build
         run: npm run build
 
-      - name: npm run start
-        run: npm run start
-
       - name: Generate
         run: npm run generate
+
+      - name: npm run start
+        run: npm run start
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
